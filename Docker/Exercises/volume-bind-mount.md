@@ -20,18 +20,15 @@ echo "hello, from container1" >> ctr1-data.txt
 
 # Let us spin up another new container called 'container2' which will user --containers-from option
 
-docker run -itd --name container2 -volumes-from container1 alpine bin/sh
+docker run -itd --name container2 -v ~/local-folder:/local-folder alpine bin/sh
 
 # Attach to container2 and check the contents of '/local-folder'
 docker attach container2
 ls /local-folder
 
+# Try to write a new file in this folder and check if its visible in Container1
+
 # Check if you can write/edit contents of '/local-folder'
-
-# Let us spin up another container - 'container3' but mount the volume in read-only mode
-docker run -itd --name container3 -volumes-from container1:ro alpine bin/sh
-
-# Attach to container3 and check if you can write/edit contents in '/local-folder'
 
 ```
 
