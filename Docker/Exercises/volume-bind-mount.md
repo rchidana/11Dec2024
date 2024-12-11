@@ -27,8 +27,7 @@ docker attach container2
 ls /local-folder
 
 # Try to write a new file in this folder and check if its visible in Container1
-
-# Check if you can write/edit contents of '/local-folder'
+echo "hello, from container2" >> ctr2-data.txt
 
 ```
 
