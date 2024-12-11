@@ -2,3 +2,18 @@ https://cloud.cdp.rpsconsulting.in/console/#
 
 Details of Assigned VMs:
 
+
+VM-ID	Assigned User
+24SMP3793_U01	Prabhakaran
+24SMP3793_U02	Murthy
+24SMP3793_U03	Sanjay
+24SMP3793_U04	Saravanan
+24SMP3793_U05	Ram Kumar
+24SMP3793_U06	Anand
+24SMP3793_U07	Nagraj Reddy
+24SMP3793_U08	Praneeth
+24SMP3793_U09	Mohan
+24SMP3793_U10	Gangadhar
+24SMP3793_U11	Elcin
+24SMP3793_U12	Abhishek
+
